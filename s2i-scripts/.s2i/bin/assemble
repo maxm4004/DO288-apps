@@ -19,6 +19,10 @@ echo "---> Creating info page"
 echo "Page built on $DATE" >> ./info.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
 
+echo "######## CUSTOMIZATION STARTS HERE ############"
+echo "#                  MASSIMO                    #"
+echo "######## CUSTOMIZATION ENDS HERE ##############"
+
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
